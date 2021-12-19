@@ -1,3 +1,4 @@
+/*  added color and font variables  */
 :root {
     --white: #fff;
     --gray-white: #d9dcd6;
@@ -33,7 +34,7 @@ header h1 {
 header h1 .seo {
     color: var(--gray-white);
 }
-
+/*  changed to nav sematic */
 nav {
     padding-top: 15px;
     margin-right: 20px;
