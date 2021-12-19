@@ -4,6 +4,8 @@
     --light-blue: #2589bd;
     --medium-blue:  #0072bb;
     --dark-blue: #2a607c;
+    --header-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --body-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
   
 * {
@@ -18,7 +20,7 @@ body {
 
 header {
     padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--header-font);
     background-color: var(--dark-blue);
     color: var(--white);
 }
@@ -36,7 +38,7 @@ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--body-font);
     font-size: 20px;
 }
 
@@ -90,7 +92,7 @@ p {
     float: right;
     width: 20%;
     height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--body-font);
     background-color: var(--light-blue);
 }
 
@@ -116,7 +118,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--body-font);
     background-color: var(--medium-blue);
     color: var(--white);
 }
@@ -135,7 +137,7 @@ p {
 footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: var(--header-font);
     text-align: center;
 }
 
