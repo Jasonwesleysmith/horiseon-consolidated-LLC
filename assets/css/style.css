@@ -14,11 +14,11 @@
     padding: 0;
     margin: 0;
 }
-
+/* body styling */
 body {
     background-color: var(--gray-white);
 }
-
+/* header styling */
 header {
     padding: 20px;
     font-family: var(--header-font);
