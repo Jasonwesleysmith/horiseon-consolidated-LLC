@@ -1,4 +1,4 @@
-/*  added color and font variables  */
+/* color and font variables */
 :root {
     --white: #fff;
     --gray-white: #d9dcd6;
@@ -34,7 +34,7 @@ header h1 {
 header h1 .seo {
     color: var(--gray-white);
 }
-/*  changed to nav sematic */
+/* navigation styling */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -60,7 +60,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* hero styling */
 .hero {
     height: 800px;
     width: 100%;
@@ -86,6 +86,24 @@ p {
     margin-left: 20px;
 }
 
+.content article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: var(--body-font);
+    background-color: var(--medium-blue);
+    color: var(--white);
+}
+
+.content article img {
+    max-height: 200px;
+}
+
+.content article h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* benefits column styling */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,39 +120,18 @@ p {
     color: var(--white);
 }
 
-/*consolidated h3 properties*/
 .benefits article h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/*consolidated img properties*/
 .benefits article img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.content article {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: var(--body-font);
-    background-color: var(--medium-blue);
-    color: var(--white);
-}
-
-/* Consolidate image properties */
-.content article img {
-    max-height: 200px;
-}
-
-/* Consolidate h2 properties  */
-.content article h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* footer styling */
 footer {
     padding: 30px;
     clear: both;
